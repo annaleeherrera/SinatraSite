@@ -9,4 +9,8 @@ class MySite < Sinatra::Base
   get "/seattleparks.html" do
     erb :parks
   end
+
+  get "/seattlefood.html" do
+    erb :food
+  end
 end
