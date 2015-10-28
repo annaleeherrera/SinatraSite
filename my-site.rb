@@ -2,6 +2,10 @@ require "sinatra"
 
 class MySite < Sinatra::Base
 
+  get "/" do
+    erb :hello
+  end
+
   get "/loveseattle.html" do
     erb :hello
   end
