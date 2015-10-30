@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link href="css/layout.css" rel="stylesheet">
+    <title> Seattle<3 </title>
+    <meta charset = "utf-8">
+  </head>
+  <body>
+
+<%= yield %>
+
+    <footer>
+      <p>
+        Get your Seattle on:
+         <% @footerlinks.each do |name, url| %>
+          <a href="<%= url %>"><%= name %></a>
+         <% end %>
+      </p>
+    </footer>
+    <p class="pfooter"> Copyright &copy: Herrera <%=Time.now.year %></p>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+body {
+  background-image: url("/chevron.png");
+  width: 960px;
+  margin: 0 auto;
+}
+
+#margin_padding {
+  align: center;
+ 	border: 3px solid black;
+ 	font-family: monospace;
+ 	text-align: center;
+ 	background-color: #20B2AA;
+ 	width: 400px;
+ 	padding-top: 50px;
+ 	padding-right: 25px;
+  padding-bottom: 50px;
+ 	margin: 0 auto;
+  margin-bottom: .5cm;
+
+}
+#margin2_padding {
+  align: center;
+ 	border: 2px dashed black;
+ 	font-family: monospace;
+ 	text-align: center;
+ 	background-color: #ffcc00;
+ 	width: 400px;
+ 	padding-top: 25px;
+ 	padding-right: 25px;
+  padding-bottom: 25px;
+ 	margin: 0 auto;
+  margin-bottom: 3cm;
+}
+
+img {
+ display: block;
+ align-items: center;
+ margin: 0 auto;
+ margin-bottom: 1cm;
+}
+
+.photo {
+  text-align: right;
+  margin-right: 200px;
+  margin-top: -80px;
+  color: white;
+}
+
+footer {
+  align: center;
+ 	border: 2px dashed black;
+ 	font-family: monospace;
+  font-size: 115%;
+ 	text-align: center;
+ 	background-color: red;
+ 	width: 500px;
+ 	padding-top: 5px;
+ 	padding-right: 5px;
+  padding-bottom: 5px;
+ 	margin: 0 auto;
+  margin-top: 5cm;
+  position: relative;
+}
+
+.pfooter {
+  font-family: monospace;
+  font-size: 115%;
+  position: relative;
+
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  display: inline;
+}
+
+li a, li a:visited {
+  font-family: monospace;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  border: 2px solid red;
+  background-color:#ffcc00;
+}
+
+li a:hover {
+  color:white;
+}
+
+a {
+  font-family: monospace;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white ;
+}
+
+a:active {
+  background-color: black;
+}
+
+table {
+  border: 5px solid #346B92;
+  border-collapse: collapse;
+  font-family: monospace;
+  margin: 0 auto;
+  margin-bottom: 3cm;
+
+}
+
+body {
+  font-family: monospace;
+    margin-bottom: 3cm;
+}
+
+thead {
+  font-size: 150%;
+  background-color: #346B92;
+}
+
+td {
+  font-size: 200%;
+  width: 33%;
+  background-color: #ffcc00
+  text-align: center;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px;
+}
+
+tfoot td {
+  text-align: center;
+  background-color: #346B92;
+  font-size: 150%;
+  color: #e3e8b7;
+  font-family: monospace;
+}
