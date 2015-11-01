@@ -1,17 +1,28 @@
 <html>
   <head>
     <link href="css/layout.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <title> Seattle<3 </title>
     <meta charset = "utf-8">
   </head>
   <body>
+    <img src= "seattle1.png" class="sil"/>
+    <nav>
+      <p>
+         <% @navfooter.each do |name, url| %>
+          <a href="<%= url %>"><%= name %></a>
+         <% end %>
+      </p>
+    </nav>
+
 
 <%= yield %>
 
     <footer>
-      <p>
-        Get your Seattle on:
-         <% @footerlinks.each do |name, url| %>
+      <p> Get your Seattle on:
+        
+         <% @navfooter.each do |name, url| %>
           <a href="<%= url %>"><%= name %></a>
          <% end %>
       </p>

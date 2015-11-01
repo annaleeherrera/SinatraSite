@@ -1,6 +1,5 @@
-        <h1 id="margin_padding"> Seattle tastes good. </h1>
-        <h2 id="margin2_padding"> Yum. </h2>
-        <img src  = "selam.png" width="300" height="200" /> <img src  = "maneki.png" width="300" height="200" />
+      <h1> Seattle is Tasty. </h1>
+      <img src  = "selam.png" width="300" height="200" /> <img src  = "maneki.png" width="300" height="200" />
         <table border="1">
           <thead>
             <tr>
@@ -12,7 +11,6 @@
             <td > Best Burrito </td>
             <td><a href="http://www.yelp.com/biz/el-kiosko-renton?osq=Mexican+Food">El Kiosko</a></td>
           </tr>
-          <!-- </tr> -->
           <tr>
             <td> Best Dim Sum </td>
             <td><a href="http://www.yelp.com/biz/jade-garden-seattle">Jade Garden</a></td>
@@ -26,3 +24,7 @@
             <td><a href="http://www.yelp.com/biz/cafe-selam-seattle?osq=Ethiopian+Food">Cafe Selam </a></td>
           </tr>
         </table>
+
+        <h2> <a href = "./seattlefood.html"> Can't Decide?  Let me pick for you.<a/> </h2>
+        <h1><% foodarray = ["Cafe Selam", "Maneki", "Jade Garden", "El Kiosko"] %>
+        <%= foodarray.sample %></h1>
