@@ -7,22 +7,22 @@ class MySite < Sinatra::Base
   end
 
   get "/" do
-    @navfooter = {"Parks" => "seattleparks.html", "Food" => "/seattlefood.html"}
+    @navfooter = {"About" => "about.html", "Parks" => "seattleparks.html", "Food" => "/seattlefood.html"}
     erb :hello
   end
 
   get "/loveseattle.html" do
-    @navfooter = {"Home" => "/loveseattle.html", "Parks" => "seattleparks.html", "Food" => "/seattlefood.html"}
+    @navfooter = {"Home" => "/loveseattle.html", "About" => "about.html", "Parks" => "seattleparks.html", "Food" => "/seattlefood.html"}
     erb :hello
   end
 
   get "/seattleparks.html" do
-    @navfooter = {"Home" => "/loveseattle.html", "Food" => "/seattlefood.html"}
+    @navfooter = {"Home" => "/loveseattle.html", "About" => "about.html", "Food" => "/seattlefood.html"}
     erb :parks
   end
 
   get "/seattlefood.html" do
-    @navfooter = {"Home" => "loveseattle.html", "Parks" => "seattleparks.html"}
+    @navfooter = {"Home" => "loveseattle.html", "About" => "about.html", "Parks" => "seattleparks.html"}
     erb :food
   end
 

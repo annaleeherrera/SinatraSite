@@ -47,7 +47,7 @@ h1 {
     color: black;
    	text-align: center;
    	background-color: #F5F6FA;
-   	width: 400px;
+   	width: 600px;
    	padding-top: 25px;
    	padding-right: 25px;
     padding-bottom: 25px;
@@ -60,19 +60,27 @@ h1 {
    	border: 2px solid black;
    	font-family: sans-serif;
     font-size: 20px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
    	text-align: center;
    	background-color: #ffcc00;
-   	width: 400px;
-   	padding-top: 25px;
-    padding-bottom: 25px;
+   	width: 200px;
+   	padding-top: 1px;
+    padding-bottom: 1px;
    	margin: 0 auto;
     margin-bottom: .5cm;
   }
 
 h2 a {
-    text-decoration: none;
+  text-decoration: none;
   }
+
+.annalee {
+  margin: 0 auto;
+  margin-left: 7cm;
+  margin-bottom: 2cm;
+  length: 400px;
+  width: 400px;
+}
 
 img {
  display: inline;
