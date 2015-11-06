@@ -3,10 +3,6 @@ require "sinatra"
 class MySite < Sinatra::Base
 
   get "/" do
-    erb :hello
-  end
-
-  get "/" do
     @navfooter = {"About" => "about.html", "Parks" => "seattleparks.html", "Food" => "/seattlefood.html"}
     erb :hello
   end
